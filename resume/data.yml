@@ -8,9 +8,9 @@ about: Hi, my name is John Doe. I"m just about the most boring type of person yo
        each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
 position: Software Developer
 
-birth:
-  year: 1990
-  location: New York
+# birth:
+#   year: 1990
+#   location: New York
 
 experience:
 - company: Company A
@@ -82,12 +82,12 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: v1k@protonmail.com
+  # phone: 0123 456789
+  # street: 1234 Broadway
+  city: Lisbon, Portugal
+  website: https://vikborges.com/
+  github: kivs
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
