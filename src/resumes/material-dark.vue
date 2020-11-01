@@ -127,6 +127,7 @@
       :href="experience.website">
         <div class="block-helper"></div>
         <h3 class="headline">{{experience.position}} - {{experience.company}}</h3>
+          <div class="subheadline">{{experience.location}}</div>
           <div class="subheadline">{{experience.timeperiod}}</div>
           <p class="info">
             {{experience.description}}

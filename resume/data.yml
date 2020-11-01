@@ -8,26 +8,37 @@ name:
 #        each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
 position: Software Developer
 
-# birth:
-#   year: 1990
-#   location: New York
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  # website: https://example.com
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Trojan Horse was a Unicorn
+  position: Software Engineer
+  timeperiod: Jul 2020 – Present
+  description: ...
+  location: Lisbon, Portugal
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+
+- company: Unbabel
+  position: Full-stack Developer
+  timeperiod: Feb 2018 – May 2020
+  description: Working across the stack with emphasis on the back-end and the data side of things. From developing APIs, automation tools, ML data pipelines for training and retraining, optimizations and scaling, etc
+  location: Lisbon, Portugal
+
+- company: Consulting
+  position: Freelancer
+  timeperiod: Mar 2015 – Feb 2018
+  description: Python dev, Web Front and Back End Development and Sys Admin
+  location: UK
+
+- company: AWD - Arquitectura Web e Design
+  position: Front & Back-End Web Developer
+  timeperiod: Jan 2014 – Mar 2015
+  location: Lisbon, Portugal
+
+- company: GABITECOM Lda
+  position: Management Trainee
+  timeperiod: Jan 2010 – May 2010
+  location: Figueira da foz, Portugal
 
 education:
 - degree: Master of Arts
@@ -39,12 +50,11 @@ education:
   timeperiod: March 2009 - December 2011
   description: Major in Engineering, University B, Los Angeles, USA.
 
-# skill level goes 0 to 100
 skills:
 - name: Python
 - name: Postgres
 - name: JavaScript
-- name: Unix
+- name: Linux
 - name: Docker
 
 # knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
@@ -73,8 +83,6 @@ skills:
 
 contact:
   email: v1k@protonmail.com
-  # phone: 0123 456789
-  # street: 1234 Broadway
   city: Lisbon, Portugal
   website: vikborges.com
   github: kivs
