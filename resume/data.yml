@@ -42,23 +42,16 @@ education:
 # skill level goes 0 to 100
 skills:
 - name: HTML5
-  level: 99
 - name: CSS3
-  level: 95
 - name: JavaScript
-  level: 97
 - name: Node.js
-  level: 93
 - name: Angular 2
-  level: 60
 - name: TypeScript
-  level: 80
 - name: ES.Next
-  level: 70
 - name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+
+# knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
+#   (English and Klingon).
 
 projects:
 - name: best-resume-ever

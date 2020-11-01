@@ -93,11 +93,11 @@
       <div class="skill" v-for="skill in person.skills" :key="skill.name">
         <div class="right">
           <span>{{skill.name}}&nbsp;</span>
-          <div class="progress">
+          <!-- <div class="progress">
             <div class="determinate" :style="'width: '+skill.level+'%;'">
               <i class="fa fa-circle"></i>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
