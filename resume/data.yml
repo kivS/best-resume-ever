@@ -86,8 +86,9 @@ contact:
   # phone: 0123 456789
   # street: 1234 Broadway
   city: Lisbon, Portugal
-  website: https://vikborges.com/
+  website: vikborges.com
   github: kivs
+  linkedin: vikborges
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

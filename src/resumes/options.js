@@ -59,6 +59,10 @@ function getVueOptions (name) {
                     links.phone = `tel:${this.person.contact.phone}`;
                 }
 
+                if(this.person.contact.website) {
+                    links.website = `https://${this.person.contact.website}`;
+                }
+
                 return links;
             },
         }

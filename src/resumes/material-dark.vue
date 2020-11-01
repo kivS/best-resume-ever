@@ -30,6 +30,17 @@
       </div>
     </div>
 
+    <a v-if="person.contact.linkedin" :href="contactLinks.linkedin">
+      <div class="item">
+        <div class="icon">
+          <i class="section-link__icon fa fa-linkedin"></i>
+        </div>
+        <div class="text">
+          {{person.contact.linkedin}}
+        </div>
+      </div>
+    </a>
+
     <a v-if="person.contact.phone" :href="contactLinks.phone">
       <div class="item">
         <div class="icon">
@@ -59,12 +70,12 @@
         </div>
         <div class="text">
           <span>@{{person.contact.github}}</span>
-          <span>github.com/{{person.contact.github}}</span>
+       <!--    <span>github.com/{{person.contact.github}}</span> -->
         </div>
       </div>
     </a>
 
-    <a v-if="person.contact.website" :href="person.contact.website" target="_blank">
+    <a v-if="person.contact.website" :href="contactLinks.website" target="_blank">
       <div class="item">
         <div class="icon">
           <i class="material-icons">language</i>
