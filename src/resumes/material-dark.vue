@@ -52,16 +52,6 @@
       </div>
     </a>
 
-    <a :href="contactLinks.email">
-      <div class="item">
-        <div class="icon">
-          <i class="material-icons">email</i>
-        </div>
-        <div class="text">
-          {{person.contact.email}}
-        </div>
-      </div>
-    </a>
 
     <a v-if="person.contact.github" :href="contactLinks.github" target="_blank">
       <div class="item">
@@ -82,6 +72,17 @@
         </div>
         <div class="text">
           <span>{{person.contact.website}}</span>
+        </div>
+      </div>
+    </a>
+
+    <a :href="contactLinks.email">
+      <div class="item">
+        <div class="icon">
+          <i class="material-icons">email</i>
+        </div>
+        <div class="text">
+          {{person.contact.email}}
         </div>
       </div>
     </a>
@@ -124,7 +125,7 @@
     <div class="section-headline experience">{{ lang.experience }}</div>
     <div class="block" v-for="experience in person.experience" :key="experience.company">
       <a
-      :href="experience.website">
+      :href="contactLinks.linkedin">
         <div class="block-helper"></div>
         <h3 class="headline">{{experience.position}} - {{experience.company}}</h3>
           <div class="subheadline">{{experience.location}}</div>
@@ -137,7 +138,7 @@
     <div class="section-headline">{{ lang.education }}</div>
     <div class="block" v-for="education in person.education" :key="education.degree">
       <a
-      :href="education.website">
+      :href="contactLinks.linkedin">
         <div class="block-helper"></div>
         <div class="headline">{{education.degree}}</div>
         <p class="info">

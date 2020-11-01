@@ -3,34 +3,34 @@ name:
   first: Vik
   middle:
   last: Borges
-# about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-#        possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-#        each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
+# about: >-
+#     Looking for opportunities in areas that will have an impact on the world
 position: Software Developer
 
 
 experience:
-
 - company: Trojan Horse was a Unicorn
   position: Software Engineer
   timeperiod: Jul 2020 – Present
-  description: ...
   location: Lisbon, Portugal
-
+  # description: ...
 
 - company: Unbabel
   position: Full-stack Developer
   timeperiod: Feb 2018 – May 2020
-  description: Working across the stack with emphasis on the back-end and the data side of things. From developing APIs, automation tools, ML data pipelines for training and retraining, optimizations and scaling, etc
   location: Lisbon, Portugal
+  # description: >-
+  #              Working across the stack with emphasis on the back-end and the data side of things.
+  #              From developing APIs, automation tools, ML data pipelines for training and retraining, optimizations and scaling.
+  #              Working with tools like: Python, Flask, PostgreSQL, Docker, K8s, Javascript ES6, HTML5, VueJS, etc
 
 - company: Consulting
   position: Freelancer
   timeperiod: Mar 2015 – Feb 2018
-  description: Python dev, Web Front and Back End Development and Sys Admin
   location: UK
+  # description: Python dev, Web development and Sys Admin
 
-- company: AWD - Arquitectura Web e Design
+- company: AWD
   position: Front & Back-End Web Developer
   timeperiod: Jan 2014 – Mar 2015
   location: Lisbon, Portugal
@@ -41,14 +41,14 @@ experience:
   location: Figueira da foz, Portugal
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Candidate in Master's program, Computer engeneering
+  timeperiod: 2015 – 2017
+  description: Universidade de Coimbra
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Graduate, Management and Computer Science
+  timeperiod: 2010 – 2013
+  description: Instituto Politécnico de Viseu
+
 
 skills:
 - name: Python
@@ -56,6 +56,7 @@ skills:
 - name: JavaScript
 - name: Linux
 - name: Docker
+- name: AWS
 
 # knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
 #   (English and Klingon).
