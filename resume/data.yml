@@ -13,22 +13,16 @@ experience:
   position: Software Engineer
   timeperiod: Jul 2020 – Present
   location: Lisbon, Portugal
-  # description: ...
 
 - company: Unbabel
   position: Full-stack Developer
   timeperiod: Feb 2018 – May 2020
   location: Lisbon, Portugal
-  # description: >-
-  #              Working across the stack with emphasis on the back-end and the data side of things.
-  #              From developing APIs, automation tools, ML data pipelines for training and retraining, optimizations and scaling.
-  #              Working with tools like: Python, Flask, PostgreSQL, Docker, K8s, Javascript ES6, HTML5, VueJS, etc
 
 - company: Consulting
   position: Freelancer
   timeperiod: Mar 2015 – Feb 2018
   location: UK
-  # description: Python dev, Web development and Sys Admin
 
 - company: AWD
   position: Front & Back-End Web Developer
@@ -41,7 +35,7 @@ experience:
   location: Figueira da foz, Portugal
 
 education:
-- degree: Candidate in Master's program, Computer engeneering
+- degree: Candidate in Master's program, Computer engineering
   timeperiod: 2015 – 2017
   description: Universidade de Coimbra
 

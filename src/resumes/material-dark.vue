@@ -301,7 +301,7 @@ h4 {
   display:flex;
   flex-direction:column;
   .experience {
-    margin-top: 40px;
+    margin-top: 5px;
   }
   .about {
     display: block;
