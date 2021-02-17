@@ -13,6 +13,12 @@
 
 </div>
 
+## Usage
+
+- Run server: `npm run start`
+- Export pdf with server running: `npm run pdf`
+
+
 <h4 align="center">
   :necktie: :briefcase: Build fast :rocket: and easy multiple beautiful resumes and create your best CV ever!
   <br><br>
