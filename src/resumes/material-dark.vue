@@ -332,10 +332,10 @@ h4 {
       font-weight:300;
     }
     .info {
-      font-size:14px;
+      font-size:12px;
       color:rgba(0,0,0,0.870588);
       margin-bottom:0;
-      padding-top:20px;
+      padding-top:5px;
     }
     .icon {
       width:16%;

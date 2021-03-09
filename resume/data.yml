@@ -13,21 +13,28 @@ experience:
   position: Software Engineer
   timeperiod: Jul 2020 – Dec 2020
   location: Lisbon, Portugal
+  description: >-
+    Worked on a networking ecosystem created to share knowledge, inspire and empower creators from all areas of the digital entertainment & interactive industry.
 
 - company: Unbabel
   position: Full-stack Developer
   timeperiod: Feb 2018 – May 2020
   location: Lisbon, Portugal
+  description: Translation as a Service platform for enterprises, worked across the stack with emphasis on the back-end and the data side of things. From developing APIs, automation tools, ML data pipelines for training and retraining, optimizations and scaling, etc.
 
 - company: Consulting
   position: Freelancer
   timeperiod: Mar 2015 – Feb 2018
-  location: UK
+  description: >-
+      Python dev, Web Front and Back End Development and Sys Admin.
+
 
 - company: AWD
   position: Front & Back-End Web Developer
   timeperiod: Jan 2014 – Mar 2015
   location: Lisbon, Portugal
+  description: >-
+    Web Front and Back End Development
 
 - company: GABITECOM Lda
   position: Management Trainee
@@ -45,9 +52,12 @@ education:
 
 
 skills:
+- name: Automation
+- name: Debugging
 - name: Python
-- name: Postgres
 - name: JavaScript
+- name: Postgres
+- name: Sqlite
 - name: Linux
 - name: Docker
 - name: AWS
