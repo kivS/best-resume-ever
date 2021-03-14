@@ -124,27 +124,21 @@
 
     <div class="section-headline experience">{{ lang.experience }}</div>
     <div class="block" v-for="experience in person.experience" :key="experience.company">
-      <a
-      :href="contactLinks.linkedin">
-        <div class="block-helper"></div>
-        <h3 class="headline">{{experience.position}} - {{experience.company}}</h3>
-          <div class="subheadline">{{experience.location}}</div>
-          <div class="subheadline">{{experience.timeperiod}}</div>
-          <p class="info">
-            {{experience.description}}
-          </p>
-      </a>
+      <div class="block-helper"></div>
+      <h3 class="headline">{{experience.position}} - {{experience.company}}</h3>
+        <div class="subheadline">{{experience.location}}</div>
+        <div class="subheadline">{{experience.timeperiod}}</div>
+        <p class="info">
+          {{experience.description}}
+        </p>
     </div>
     <div class="section-headline">{{ lang.education }}</div>
     <div class="block" v-for="education in person.education" :key="education.degree">
-      <a
-      :href="contactLinks.linkedin">
-        <div class="block-helper"></div>
-        <div class="headline">{{education.degree}}</div>
-        <p class="info">
-          {{education.timeperiod}}, {{education.description}}
-        </p>
-      </a>
+      <div class="block-helper"></div>
+      <div class="headline">{{education.degree}}</div>
+      <p class="info">
+        {{education.timeperiod}}, {{education.description}}
+      </p> 
     </div>
   </div>
 
