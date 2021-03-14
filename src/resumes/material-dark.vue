@@ -322,13 +322,13 @@ h4 {
     .headline {
       font-weight:300;
       display:block;
-      font-size:15px;
+      font-size:14px;
       color:rgba(0,0,0,0.870588);
     }
     .subheadline {
       color:rgba(0,0,0,0.541176);
       display:block;
-      font-size:14px;
+      font-size:13px;
       font-weight:300;
     }
     .info {
