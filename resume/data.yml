@@ -3,14 +3,14 @@ name:
   first: Vik
   middle:
   last: Borges
-# about: >-
-#     Looking for opportunities in areas that will have an impact on the world
+about: >-
+    Looking for opportunities in areas that will have an impact on the world
 position: Software Developer
 
 
 experience:
 - company: Trojan Horse was a Unicorn
-  position: Software Engineer
+  position: Software Developer
   timeperiod: Jul 2020 – Dec 2020
   location: Lisbon, Portugal
   description: >-
