@@ -3,12 +3,19 @@ name:
   first: Vik
   middle:
   last: Borges
-about: >-
-    Looking for opportunities in areas that will have an impact on the world
+# about: >-
+#    Looking for opportunities in areas that will have an impact on the world
 position: Software Developer
 
 
 experience:
+- company: Freelancer
+  position: Software Developer
+  timeperiod: Jan 2020 – Present
+  # location: Lisbon, Portugal
+  description: >-
+
+
 - company: Trojan Horse was a Unicorn
   position: Software Developer
   timeperiod: Jul 2020 – Dec 2020
